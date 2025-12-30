@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturawave Solution - Pharmaceutical Engineering Internship</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container nav-container">
+            <div class="nav-logo">
+                <div class="logo-circle"><img src="images/Naturawave (1).png" alt="" style="width: 50px; height: 50px;"></div>
+                <span class="logo-text">Naturawave</span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#program" class="nav-link">Program</a>
+                <a href="#registration" class="nav-link">Apply</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+                <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="logo-box fade-in">
+                <div class="hero-logo">Naturawave Solution</div>
+            </div>
+
+            <h1 class="hero-title fade-in-delay-1">Launch Your Pharma Career at Naturawave Solution</h1>
+
+            <p class="hero-subtitle fade-in-delay-2">
+                Drug Development, R&D, Web Development, Project Management & Thesis Internships
+            </p>
+
+            <div class="countdown-section fade-in-delay-3">
+                <p class="countdown-label">Program Starts In:</p>
+                <div class="countdown" id="countdown">
+                    <div class="countdown-card">
+                        <div class="countdown-value" id="days">00</div>
+                        <div class="countdown-label-small">Days</div>
+                    </div>
+                    <div class="countdown-card">
+                        <div class="countdown-value" id="hours">00</div>
+                        <div class="countdown-label-small">Hours</div>
+                    </div>
+                    <div class="countdown-card">
+                        <div class="countdown-value" id="minutes">00</div>
+                        <div class="countdown-label-small">Minutes</div>
+                    </div>
+                    <div class="countdown-card">
+                        <div class="countdown-value" id="seconds">00</div>
+                        <div class="countdown-label-small">Seconds</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section fade-in-delay-4">
+                <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScCP1C18NK3NLdLp7L0ov6rLQm7bKj20mGqkjb52G_06jAhFw/viewform?usp=dialog', '_blank')" class="cta-btn pulsing" id="registerBtn">Register Now</button>
+            </div>
+
+            <div class="badges fade-in-delay-5">
+                <div class="badge">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Daily 8-9PM IST Google Meet</span>
+                </div>
+                <div class="badge">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span>WhatsApp Group Post-Registration</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Overview -->
+    <section id="program" class="program-section">
+        <div class="container">
+            <h2 class="section-title">Why Naturawave?</h2>
+
+            <div class="program-grid">
+                <div class="program-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M10 2v7.31"></path>
+                                <path d="M14 9.3V1.99"></path>
+                                <path d="M8.5 2h7"></path>
+                                <path d="M14 9.3a6.5 6.5 0 1 1-4 0"></path>
+                                <path d="M5.52 16h12.96"></path>
+                            </svg>
+                        </div>
+                        <h3>Drug Development</h3>
+                    </div>
+                    <ul class="card-list">
+                        <li>• Learn pharmaceutical formulation principles</li>
+                        <li>• Understand drug delivery systems</li>
+                        <li>• Daily hands-on sessions with industry experts</li>
+                        <li>• Real-world case studies and projects</li>
+                    </ul>
+                </div>
+
+                <div class="program-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <circle cx="12" cy="12" r="4"></circle>
+                                <line x1="21.17" y1="8" x2="12" y2="8"></line>
+                                <line x1="3.95" y1="6.06" x2="8.54" y2="14"></line>
+                                <line x1="10.88" y1="21.94" x2="15.46" y2="14"></line>
+                            </svg>
+                        </div>
+                        <h3>R&D Research</h3>
+                    </div>
+                    <ul class="card-list">
+                        <li>• Master research methodologies</li>
+                        <li>• Data analysis and interpretation</li>
+                        <li>• Interactive doubt-clearing sessions</li>
+                        <li>• Publication-ready research guidance</li>
+                    </ul>
+                </div>
+
+                <div class="program-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Web Development</h3>
+                    </div>
+                    <ul class="card-list">
+                        <li>• Build pharma-tech web applications</li>
+                        <li>• Database management for pharma data</li>
+                        <li>• Daily coding sessions and reviews</li>
+                        <li>• Portfolio-worthy projects</li>
+                    </ul>
+                </div>
+
+                <div class="program-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 11l3 3L22 4"></path>
+                                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                            </svg>
+                        </div>
+                        <h3>Project Management</h3>
+                    </div>
+                    <ul class="card-list">
+                        <li>• Agile methodologies for pharma projects</li>
+                        <li>• Stakeholder management skills</li>
+                        <li>• Daily project planning sessions</li>
+                        <li>• Industry-standard tools and practices</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule-section">
+        <div class="container">
+            <h2 class="section-title">Program Details</h2>
+
+            <div class="info-box">
+                <div class="info-item">
+                    <svg class="info-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    <div>
+                        <div class="info-title">Program Start Date</div>
+                        <p class="info-text">January 1, 2026</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <svg class="info-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <div>
+                        <div class="info-title">Daily Sessions</div>
+                        <p class="info-text">
+                            8:00 PM - 9:00 PM IST via Google Meet<br>
+                            Interactive classes with live doubt-clearing sessions
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <svg class="info-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <div>
+                        <div class="info-title">Communication</div>
+                        <p class="info-text">
+                            WhatsApp group access post-registration<br>
+                            Google Meet links shared daily in the group
+                        </p>
+                    </div>
+                </div>
+
+                <div class="note-box">
+                    <p><strong>Note:</strong> All sessions are conducted in Indian Standard Time (IST).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration CTA -->
+    <section id="registration" class="registration-section">
+        <div class="container text-center">
+            <h2 class="section-title">Apply Now</h2>
+            <p class="section-description">
+                Join hundreds of students who are transforming their careers with Naturawave Solution. 
+                Fill out the application form and take the first step towards your pharma future.
+            </p>
+            <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScCP1C18NK3NLdLp7L0ov6rLQm7bKj20mGqkjb52G_06jAhFw/viewform?usp=dialog', '_blank')" class="cta-btn" id="applyBtn">Open Application Form</button>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="social-proof-section">
+        <div class="container">
+            <h2 class="section-title">Success Stories</h2>
+
+            <!-- Testimonial Carousel -->
+            <div class="testimonial-carousel">
+                <div class="testimonial-wrapper" id="testimonialWrapper">
+                    <div class="testimonial active">
+                        <svg class="quote-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                            <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                        </svg>
+                        <p class="testimonial-text">
+                            The thesis mastery sessions were incredible! The mentors guided me through every step of my research project. I gained practical insights into drug development that I couldn't find in textbooks.
+                        </p>
+                        <div class="testimonial-footer">
+                            <div>
+                                <div class="testimonial-name">Priya Sharma</div>
+                                <div class="testimonial-role">Final Year, Pharmaceutical Sciences</div>
+                            </div>
+                            <div class="testimonial-track">Drug Development</div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <svg class="quote-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                            <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                        </svg>
+                        <p class="testimonial-text">
+                            Naturawave's R&D internship transformed my understanding of pharmaceutical research. The daily sessions and hands-on projects prepared me perfectly for my career in the industry.
+                        </p>
+                        <div class="testimonial-footer">
+                            <div>
+                                <div class="testimonial-name">Rahul Verma</div>
+                                <div class="testimonial-role">Biotechnology Graduate</div>
+                            </div>
+                            <div class="testimonial-track">R&D Research</div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <svg class="quote-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                            <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                        </svg>
+                        <p class="testimonial-text">
+                            As a CS student interested in pharma-tech, this internship was perfect. I learned to build web applications for pharmaceutical data management while understanding the industry's unique challenges.
+                        </p>
+                        <div class="testimonial-footer">
+                            <div>
+                                <div class="testimonial-name">Ananya Patel</div>
+                                <div class="testimonial-role">Computer Science, Final Year</div>
+                            </div>
+                            <div class="testimonial-track">Web Development</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prevBtn" aria-label="Previous testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+
+                    <div class="carousel-dots" id="carouselDots">
+                        <button class="dot active" data-index="0"></button>
+                        <button class="dot" data-index="1"></button>
+                        <button class="dot" data-index="2"></button>
+                    </div>
+
+                    <button class="carousel-btn" id="nextBtn" aria-label="Next testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <div class="stat-value">10+</div>
+                    <p class="stat-label">Successful Interns in 2025</p>
+                </div>
+
+                <div class="stat-card">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
+                    <div class="stat-value">100%</div>
+                    <p class="stat-label">Certificate Completion Rate</p>
+                </div>
+
+                <div class="stat-card">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                        <polyline points="17 6 23 6 23 12"></polyline>
+                    </svg>
+                    <div class="stat-value">95%</div>
+                    <p class="stat-label">Student Satisfaction Rating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Who is eligible to apply?</span>
+                        <svg class="chevron" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>This internship is designed for final-year students pursuing degrees in pharmaceutical sciences, biotechnology, engineering, or related fields. We welcome students eager to gain hands-on experience in drug development, R&D, web development, or project management.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How does the evening schedule fit with my studies?</span>
+                        <svg class="chevron" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our sessions are held from 8-9 PM IST daily, designed to accommodate students' class schedules. This timing allows you to attend lectures during the day and participate in our interactive sessions in the evening.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What tools or software will I need?</span>
+                        <svg class="chevron" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>All sessions are conducted via Google Meet, so you'll need a stable internet connection and a device with camera/microphone capabilities. Track-specific software requirements will be shared post-registration through our WhatsApp group.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I get thesis support during the internship?</span>
+                        <svg class="chevron" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We provide dedicated thesis support and guidance throughout your internship. Our mentors will help you with research methodology, data analysis, and documentation to strengthen your academic projects.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is this internship accessible globally?</span>
+                        <svg class="chevron" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! Our virtual format makes this internship accessible to students worldwide. Sessions are conducted in IST (Indian Standard Time), but recordings will be shared for those in different time zones.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What happens after I register?</span>
+                        <svg class="chevron" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Once you submit your application, you'll receive a confirmation email within 24-48 hours. Selected candidates will be added to our WhatsApp group where you'll receive the Google Meet links, resources, and program updates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-circle"><img src="images/Naturawave (1).png" alt="" style="width: 50px; height: 50px;"></div>
+                        <span>Naturawave</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering the next generation of pharmaceutical professionals.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#program">Program</a></li>
+                        <li><a href="#registration">Apply</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span onclick="location.href='mailto:naturawaresolution@gmail.com'">naturawaresolution@gmail.com</span>
+                       
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <span onclick="tel:+918489502765">+91 8489502765</span>
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Salem, India</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Naturawave Solution. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-container">
+            <div class="success-content">
+                <canvas id="confettiCanvas"></canvas>
+                <div class="success-icon">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                </div>
+                <h3>Application Submitted!</h3>
+                <p>Thank you for applying! You'll receive your WhatsApp group invite soon.</p>
+                <button class="cta-btn" id="closeSuccess">Got it!</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
